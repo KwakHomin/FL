@@ -1,0 +1,14 @@
+# AI / Machine Learning
+ultralytics
+numpy
+
+# Image / Camera Control
+opencv-contrib-python==4.12.0.88
+
+# Hardware Control
+Jetson.GPIO==2.1.9
+
+# Utility
+screeninfo==0.8.1
+pandas==1.3.5
+matplotlib==3.5.1
