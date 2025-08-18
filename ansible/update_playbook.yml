@@ -1,0 +1,15 @@
+- hosts: jetsons
+  become: yes
+
+  tasks:
+    - name: 1. Pull latest code from GitHub repository
+      ansible.builtin.git:
+        repo: https://github.com/KwakHomin/FL.git 
+        dest: /home/solwith/my_project
+        version: main
+        force: yes
+
+    - name: 2. Restart application service
+      ansible.builtin.systemd:
+        name: my_app.service
+        state: restarted
