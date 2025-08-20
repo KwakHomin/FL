@@ -40,7 +40,7 @@ FL/
 
 ## 설치 및 최초 설정 (Target Jetson)
 
-새로운 Jetson 장비를 ציוד(fleet)에 추가할 때 필요한 설정입니다.
+새로운 Jetson 장비를 fleet에 추가할 때 필요한 설정입니다.
 
 1.  **필수 패키지 설치**
     ```bash
